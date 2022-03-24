@@ -94,25 +94,25 @@ h3 {
 .text {
     color: #000;
     transition: all 3s;
-    border-radius: .4cm
+    border-radius: .4cm;
 }
 
 .text-success {
-    color: #000
+    color: #000;
 }
 
 .text-danger .navbar-togler {
     color: #000;
-    background-color: #000
+    background-color: #000;
 }
 
 div {
     margin-top: 35px;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .navbar p {
-    padding: 0 30px
+    padding: 0 30px;
 }
 
 .formacion88 {
@@ -201,7 +201,7 @@ div {
 
 .avajo a {
     text-decoration: none;
-    clear: both
+    clear: both;
 }
 
 #footer {
@@ -277,11 +277,11 @@ div {
 /* pruev */
 
 .bi {
-    color: teal
+    color: teal;
 }
 
 .nn_foto {
-    display: flex
+    display: flex;
 }
 
 .n_foto h2 {
@@ -308,23 +308,23 @@ div {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 500px
+    height: 500px;
 }
 
 @media (min-width:300px) and (max-width:500px) {
     .formacion88 {
         width: 90%;
-        display: block
+        display: block;
     }
     .formacion {
         width: 100%;
         margin-left: 6px;
     }
     header {
-        background-color: #fff
+        background-color: #fff;
     }
     .tel {
-        margin-left: -20px
+        margin-left: -20px;
     }
     .cajon {
         margin-top: 660px;
