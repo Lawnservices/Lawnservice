@@ -38,7 +38,7 @@ label {
     color: black;
 }
 
-button {
+.boton {
     margin-top: 10px;
     background-color: teal;
     color: white;
