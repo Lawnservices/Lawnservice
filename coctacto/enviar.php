@@ -1,10 +1,10 @@
 <?php
 $destino= "miguellaguna51@gmail.com";
-$nombre= $_POST["nombre"];
-$telefono= $_POST["telefono"];
-$mensaje= $_POST["mensaje"];
+$name= $_POST["name"];
+$phone= $_POST["phone"];
+$message= $_POST["message"];
 
-$contenido = "nombre:". $nombre ."\ntelefono:".$telefono . "\nmensaje:" .$mensaje;
+$contenido = "name:". $name ."\nphone:".$phone . "\nmessage:" .$message;
 mail($destino,"contacto", $contenido);
 header("location:/index.html");
 ?>
