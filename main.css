@@ -1,7 +1,6 @@
 header {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.2);
-    animation: miguel 3s infinite alternate;
+    background-color: #485563;
     transition: all 3s ease-in-out;
     position: -webkit-sticky;
     position: sticky;
@@ -9,23 +8,30 @@ header {
     z-index: 1;
 }
 
-@keyframes miguel {
-    from {
-        background-color: rgba(0, 0, 0, 0.2);
-        transition: all 3s ease-in-out;
-    }
-    to {
-        background-color: teal;
-        transition: all 3s ease-in-out;
-    }
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    font-size: 1.8rem;
+    float: left;
+    margin-left: 20px;
+}
+
+.text {
+    color: white;
+    transition: all 3s;
+    float: left;
+}
+
+.text:hover {
+    color: teal;
 }
 
 .casa_28 {
-    margin-top: 0;
-    margin-top: 20px;
+    margin-top: 4px;
     width: 90%;
     margin-left: 5%;
-    height: 600px;
+    height: 800px;
     background-image: url(img/Casas-27.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -96,28 +102,9 @@ h3 {
 
 /* trabajos f/n */
 
-.text {
-    color: #000;
-    transition: all 3s;
-    border-radius: .4cm;
-}
-
-.text-success {
-    color: #000;
-}
-
-.text-danger .navbar-togler {
-    color: #000;
-    background-color: #000;
-}
-
 div {
     margin-top: 35px;
     background-color: transparent;
-}
-
-.navbar p {
-    padding: 0 30px;
 }
 
 .formacion88 {
@@ -314,7 +301,7 @@ div {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 800px;
 }
 
 @media (min-width:300px) and (max-width:500px) {
@@ -327,7 +314,7 @@ div {
         margin-left: 6px;
     }
     header {
-        background-color: #fff;
+        background-color: green;
     }
     .tel {
         margin-left: -20px;
