@@ -1,5 +1,6 @@
 <?php
 $destino= "miguellaguna51@gmail.com";
+$Contacto="contact desde la web";
 $nombre = $_POST["nombre"];
 $correo = $_POST["correo"];
 $telefono = $_POST["telefono"];
