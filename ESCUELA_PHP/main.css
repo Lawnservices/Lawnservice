@@ -1,0 +1,18 @@
+body {
+    background: url(casa_5.jpg);
+    background-position: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: teal;
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 400px;
+}
+
+h2::first-letter {
+    color: green;
+    font-weight: 600;
+}
