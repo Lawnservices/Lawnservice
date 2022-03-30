@@ -8,7 +8,7 @@ $mensaje = $_POST["mensaje"];
 $destino = "LagunaLawnServices883@gmail.com";
 $Contacto = "contact desde la web";
 
-$contenido = "Nombre: " . $nombre . "\nCorreo: " . $correo . "\nTelefono:" . $telefono . "\nMensaje:" . $mensaje;
+$contenido = "\nNombre: " . $nombre . "\nCorreo: " . $correo . "\nTelefono:" . $telefono . "\nMensaje:" . $mensaje;
 
 mail($destino,$nombre, $correo, $telefono, $mensaje);
  echo "<script>alert('correo enviado exitosamente')</scrip>";
