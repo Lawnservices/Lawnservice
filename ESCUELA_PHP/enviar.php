@@ -10,7 +10,7 @@ $Contacto = "contact desde la web";
 
 $contenido = "Nombre: " . $nombre . "\nCorreo: " . $correo . "\nTelefono:" . $telefono . "\nMensaje:" . $mensaje;
 
-mail($destino, $correo, $telefono, $mensaje);
+mail($destino,$nombre, $correo, $telefono, $mensaje);
  echo "<script>alert('correo enviado exitosamente')</scrip>";
  echo "<script>setTimeout(\"location.href=contacte.html'\",1000)</script>";
 ?>
