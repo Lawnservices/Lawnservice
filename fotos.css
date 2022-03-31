@@ -45,7 +45,7 @@
  }
  
  #img {
-     background-image: url(img/fertilisanta.jpg);
+     background-image: url(/img/fertilisanta.jpg);
      background-position: 50%;
      margin-left: 50px;
      width: 500px;
@@ -54,7 +54,7 @@
  }
  
  #img2 {
-     background-image: url(img/imagen1.jpg);
+     background-image: url(/img/imagen1.jpg);
      background-position: 50%;
      margin-left: 50px;
      width: 500px;
@@ -63,7 +63,7 @@
  }
  
  #img3 {
-     background-image: url(img/imagen3.jpg);
+     background-image: url(/img/imagen3.jpg);
      background-position: 50%;
      margin-left: 50px;
      width: 500px;
