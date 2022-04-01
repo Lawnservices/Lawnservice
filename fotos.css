@@ -4,11 +4,22 @@
      background-color: seagreen;
      margin-top: 0;
      margin-left: 0;
-     text-align: center;
      position: -webkit-sticky;
      position: sticky;
      top: 0;
      z-index: 1;
+     transition: 2s all ease-in-out;
+ }
+ 
+ header:hover {
+     background-color: skyblue;
+     transition: 2s all ease-in-out;
+     z-index: 1;
+ }
+ 
+ .navbar {
+     text-align: justify;
+     padding: 20px;
  }
  
  a {
@@ -17,6 +28,12 @@
      color: white;
      margin-left: 30px;
      padding: 10px;
+     transition: 2s all ease-in-out;
+ }
+ 
+ a:hover {
+     color: teal;
+     transition: 2s all ease-in-out;
  }
  
  #lectura {
