@@ -121,6 +121,12 @@ div {
     clear: both;
 }
 
+#forma {
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+}
+
 .orarios {
     width: 800px;
     height: 300px;
